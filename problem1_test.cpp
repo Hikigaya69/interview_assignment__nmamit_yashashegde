@@ -9,7 +9,7 @@ void printArray(const vector<int> &arr)
 {
     if (arr.size() >=40)
     {
-        cout << "[... too large to display (0 to " << arr.size() << " elements) ...]";
+        cout << "too large to display (0 to " << arr.size() << " elements)";
         return;
     }
 
@@ -99,6 +99,6 @@ int main()
     printArray(test16);
     cout << " -> " << (sol.containsDuplicate(test16) ? "true" : "false") << endl;
 
-    cout << "\n End of test cases.\n";
+    cout << "\n End of test cases\n";
     return 0;
 }
