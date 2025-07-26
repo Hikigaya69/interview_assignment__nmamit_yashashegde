@@ -35,14 +35,18 @@ Uses a two-pointer technique to shift non-zero values forward and push zeroes to
 ---
 
 ## File Structure
-├── problem1.cpp // Contains containsDuplicate() function
-├── problem1_test.cpp // Runs test cases for Problem 1
-├── problem2.cpp // Contains moveZeroes() function
-├── problem2_test.cpp // Runs test cases for Problem 2
-├── README.md // This documentation file
 
+```
+.
+├── problem1.cpp         // Contains containsDuplicate() function
+├── problem1_test.cpp    // Runs test cases for Problem 1
+├── problem2.cpp         // Contains moveZero() function
+├── problem2_test.cpp    // Runs test cases for Problem 2
+├── README.md            // This documentation file
+```
 
 ---
+
 
 ## How to Compile & Run
 
