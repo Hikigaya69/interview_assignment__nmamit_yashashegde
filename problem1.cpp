@@ -6,10 +6,13 @@ using namespace std;
 class Solution {
 public:
     bool containsDuplicate(const vector<int>& nums) {
-        unordered_set<int> seen;
+        unordered_set<int> st;
         for (int num : nums) {
-            if (seen.count(num)) return true;
-            seen.insert(num);
+            if (st.count(num)) 
+            {
+                return true;
+            }
+            st.insert(num);
         }
         return false;
     }
