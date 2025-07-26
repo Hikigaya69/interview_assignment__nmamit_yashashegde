@@ -5,7 +5,6 @@ using namespace std;
 
 class Solution {
 public:
-    // Public method to check for duplicates in an array
     bool containsDuplicate(const vector<int>& nums) {
         unordered_set<int> seen;
         for (int num : nums) {
